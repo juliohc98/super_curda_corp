@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: 300;
+    background: #181818;
+    color: white;
+    overflow-y: scroll;
+    margin: auto;
+    background: url(https://wallpaperstock.net/wallpapers/thumbs1/35811wide.jpg) no-repeat center center / cover;
+}
+header{
+    width: 100%;
+}
+.curda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+h1, h2, h3{
+    font-weight: 300;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100;
+}
+#container h1{
+    display: flex;
+    justify-content: center;
+}
+#section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-bottom: 1rem;
+}
+#section form{
+    width: 80%;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+} */
+
+#section .logo img {
+    width: 300px;
+}
+
+#section label{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+#section .text-input {
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 4px;
+    background: #181818;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+}
+#section .primary-btn{
+    width: 100%;
+}
+#section .or{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+
+ #section .or .bar{
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #aaa;
+}
+
+#section .or span{
+    color: #ccc;
+    padding: 0 0.8rem;
+} 
+#main-footer{
+    color: #ccc;
+    text-align-last: center;
+    font-size: 80%;
+    max-width: 80%;
+    padding-top: 5rem;
+    margin-top: 100px;
+}
+.primary-btn{
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background: #f96816;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+.primary-btn:hover{
+    background-color: #ff7b39;
+}
+.secondary-btn{
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background: #f96816;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+.secondary-btn:hover{
+    background-color: #ff7b39;
+}
+#section .btn{
+    display: flex;
+    flex-direction: column;
+}
+.third-btn{
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    font-weight: 500;
+    background: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+.third-btn:hover{
+    border-color: #ff7b39;
+    color: #ff7b39;
+}
+.flecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
