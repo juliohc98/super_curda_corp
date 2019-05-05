@@ -15,7 +15,7 @@
         </header>
         <main class="curda">
             <div id="section">
-                <form action="" class="">
+                <form action="/register" class="" method="POST">
                     <h1 class="">Registro</h1>
                     <h2 class="">Datos de la Cuenta</h2>
                     <label for="username">Usuario</label>
@@ -27,29 +27,27 @@
                     <label for="email">Email</label>
                         <input type="email" name="email" required class="text-input">
                     <h2 class="row">Datos Personales</h2>
-                    <label for="first_name">Primer Nombre</label>
+                    <label for="first_name">Nombre</label>
                         <input type="text" name="first_name" id="" required class="text-input">
-                    <label for="second_name">Segundo Nombre</label>
-                        <input type="text" name="second_name" id="" required class="text-input">
-                    <label for="first_last_name">Primer Apellido</label>
-                        <input type="text" name="first_last_name" id="" required class="text-input">
-                    <label for="second_last_name">Segundo Apellido</label>
-                        <input type="text" name="second_last_name" id="" required class="text-input">
+                    <label for="first_last_name">Apellido</label>
+                        <input type="text" name="last_name" id="" required class="text-input">
                     <label for="">Sexo</label>
-                    <select name="sexo" id="" required class="text-input">
-                        <option value="">Masculino</option>
-                        <option value="">Femenino</option>
-                        <option value="">Otro</option>
+                    <select name="sex" id="" required class="text-input">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
                     </select>
-                    <label for="id">Teléfono</label>
-                        <input type="text" name="id" id="" required class="text-input">
+                    <label for="phone_number">Teléfono</label>
+                        <input type="text" name="phone_number" id="" required class="text-input">
                     <label for="id">Cédula</label>
-                        <input type="text" name="id" id="" required class="text-input">
+                        <input type="text" name="identity_number" id="" required class="text-input">
+                    <label for="Nationality">Nacionalidad</label>
+                        <input type="ratio" name="nationality" id="" value="Venezolano" required class="text-input">
+                        <input type="ratio" name="nationality" id="" value="Extranjero" required class="text-input">
                     <label for="city">Ciudad</label>
                     <select name="city" id="" required class="text-input">
-                        <option value="">Guasdalito</option>
-                        <option value="">Carache</option>
-                        <option value="">Alta Gracia de Orituco</option>
+                        <option value="Guasdalito">Guasdalito</option>
+                        <option value="Carache">Carache</option>
+                        <option value="Alta Gracias de Orituco">Alta Gracia de Orituco</option>
                     </select>
                     <div class="form-btn">
                         <button type="submit" class="primary-btn">Registrar</button>
@@ -62,7 +60,7 @@
                     <hr class="bar">
                 </div>
                 <div class="flecha">
-                    <a title="Flecha" href="../index.html" class="row"><img src="https://cdn.discordapp.com/attachments/507751715903111168/552649762088681503/147.png" alt="Flecha" /></a>
+                    <a title="Flecha" href="/" class="row"><img src="https://cdn.discordapp.com/attachments/507751715903111168/552649762088681503/147.png" alt="Flecha" /></a>
                 </div>
         </main>
         <footer>

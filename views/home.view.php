@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sign in - Curda Corp</title>
-    <link type="iamge/x-icon" rel="shortcut icon" href="images/curda.png">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link type="iamge/x-icon" rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
     <div id="container">
@@ -19,7 +19,7 @@
         </header>
         <main class="curda">
             <div id="section">
-                <form>
+                <form action = "controllers/login.php" method = "POST">
                     <div>
                         <label for="username">Usuario</label>
                         <input type="text" name="username" class="text-input" required>
@@ -29,7 +29,7 @@
                         <input type="password" name="password" class="text-input" required>
                     </div>
                     <div class="btn">
-                        <button type="submit" class="primary-btn">Regístrame</button>
+                        <button type="submit" class="primary-btn">Iniciar Sesion</button>
                         <button type="reset" class="secondary-btn">Cancelar</button>
                     </div>
                 </form>
@@ -38,7 +38,7 @@
                         <span>OR</span>
                         <hr class="bar">
                     </div>
-                <a href="views/registro.html" class="third-btn">Create Account</a>
+                <a href="register" class="third-btn">Create Account</a>
             </div>
         </main>
         <footer id="main-footer">
